@@ -1,0 +1,84 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-card {
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.img-y {
+  height: 100%;
+  width: auto;
+}
+
+.img-x {
+  height: auto;
+  width: 100%;
+}
+
+.bg-poly {
+  background: url(/assets/img/bg-poly.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.list {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list .list-item {
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+hr {
+  width: 75%;
+  height: 1px;
+  border-radius: 2px;
+  background: #0002;
+  border: none;
+  margin: auto;
+}
+
+.bg-service-wheel {
+  background: url(/assets/img/services/wheel.jpg);
+  background-size: cover;
+}
+
+.bg-service-rim {
+  background: url(/assets/img/services/rim.jpg);
+  background-size: cover;
+}
+
+.bg-service-fuel {
+  background: url(/assets/img/services/fuel.jpg);
+  background-size: cover;
+}
+
+.bg-service-crane {
+  background: url(/assets/img/services/crane.jpg);
+  background-size: cover;
+}
+
+.bg-service-carwash {
+  background: url(/assets/img/services/carwash.jpg);
+  background-size: cover;
+}
+
+.bg-service-diagnose {
+  background: url(/assets/img/services/diagnose.jpg);
+  background-size: cover;
+}
+
+.shadow-standard {
+  box-shadow: 0 0 1rem #0002;
+}
