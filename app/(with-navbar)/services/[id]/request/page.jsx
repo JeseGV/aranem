@@ -85,14 +85,10 @@ export default function activeService() {
         </div>
         <Progress isStriped color='primary' isIndeterminate className='max-w-md' />
         <div className='flex justify-between gap-4'>
-          <User
-            name='Jane Doe'
-            description='Mecánico'
-            avatarProps={{
-              // src: "https://i.pravatar.cc/150?u=a04258114e29026702d",
-              fallback: <FaUser />,
-            }}
-          />
+        <div>
+        <h4>Total a pagar</h4>
+        <h4 className='text-primary'>{`$${price}`}</h4>
+        </div>
           <Button className='text-3xl text-opacity-50' onPress={onOpen} radius='full' isIconOnly>
             <TiCancel />
           </Button>
@@ -131,10 +127,9 @@ export default function activeService() {
             specs.map(item =>
               item.img ? (
                 <Card shadow='sm' className='flex-grow flex flex-row pl-4'>
-                  <Image className='h-full w-auto' width={92} height={92} src={item.img} />
-
+                  <Image className='scale-125' width={92} height={92} src={item.img} />
                   <CardBody className='flex flex-col min-w-max'>
-                    <h1 className='text-sm opacity-75'>{item.label}</h1>
+                    
                     <p className='pl-2'>{item.value}</p>
                   </CardBody>
                 </Card>
@@ -146,6 +141,7 @@ export default function activeService() {
               )
             )}
         </div>
+
         <hr />
         <div className='flex flex-col gap-4 p-6 center'>
           <Button

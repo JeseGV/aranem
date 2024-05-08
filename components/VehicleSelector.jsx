@@ -10,7 +10,7 @@ export default function VehicleSelector({ setSpecs }) {
   const userVehicles = [
     { ...vehicles.nissan.versa, year: 2018 },
     { ...vehicles.ford.focus, year: 2016 },
-    { ...vehicles.honda.civic, year: 2014 },
+
   ]
   const handleSelectionChange = e => {
     setValue(new Set([e.target.value]))

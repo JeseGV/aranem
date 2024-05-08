@@ -13,7 +13,7 @@ export default function PeopleSelector({ setSpecs }) {
   ]
   const handleSelectionChange = e => {
     setValue(new Set([e.target.value]))
-    setSpecs(prev => prev.filter(spec => spec.label != "People1"))
+    setSpecs(prev => prev.filter(spec => spec.label != "people1"))
     setSpecs(prev => [
       ...prev.filter(spec => spec.label != "people"),
       {
@@ -46,7 +46,7 @@ export default function PeopleSelector({ setSpecs }) {
       }}
       size='lg'
       items={userpeople}
-      label='Parangacutirimicuaro'
+      label='Mecanico'
       selectedKeys={value}
       defaultSelectedKeys={value}
       disallowEmptySelection

@@ -36,6 +36,10 @@ export default function ServicePage() {
     })
   }, [])
 
+  const getPrice=() =>{
+  return price
+  }
+
   return (
     <div className='bg-background'>
       <div className='flex flex-col w-full min-h-[50vh] relative items-center'>
