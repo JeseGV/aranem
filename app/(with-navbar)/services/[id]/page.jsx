@@ -76,7 +76,7 @@ export default function ServicePage() {
         <hr />
         <VehicleSelector setSpecs={setSpecs} />
         <PayMethodSelector setSpecs={setSpecs} /> 
-        <PeopleSelector setSpecs={setSpecs}/>
+  
         <hr />
         {service.options.map(({ items, label }, i) => (
           <Select key={i} items={items} label={label} setSpecs={setSpecs} />
