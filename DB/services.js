@@ -6,7 +6,7 @@ const services = [
     img: "wheel",
     options: [
        {
-        label: "Mecanico",
+        label: "Llantera",
         items: ["Marcos de mecanico 24hrs","Manuel de llantas Leohm"],
       },
       {
@@ -30,7 +30,7 @@ const services = [
     img: "rim",
     options: [
       {
-        label: "Mecanico",
+        label: "Llantera",
         items: ["Marcos de mecanico 24hrs","Manuel de llantas Leohm"],
       },
       {
