@@ -1,11 +1,11 @@
 const people = {
     p1: {
-        name: "Florinda Mesa",
-        img: "/assets/BD/png/donia.png"
+        name: "Marcos de Llantas Leomh",
+        img: "/assets/BD/png/Desponchado-yLlantas-Leomh-en-Delicias.jpg"
     },
     p2: {
-        name: "Profesor Jirafales",
-        img: "/assets/BD/png/jirafa.png",
+        name: "Manuel de Desponchado 24hrs",
+        img: "/assets/BD/png/images.jpeg",
     }
 }
 export default people
