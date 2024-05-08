@@ -111,7 +111,7 @@ const services = [
     img: "diagnose",
     options: [
       {
-        label: "Diagonsticador",
+        label: "Taller automotriz",
         items: ["Marcos de mecanico 24hrs","Manuel de llantas Leohm"],
       },
       {
