@@ -5,6 +5,7 @@ const services = [
     description: "Cambio de llantas de un vehiculo",
     img: "wheel",
     options: [
+      
       {
         label: "Tipo de llanta",
         items: ["205.55R15"],
@@ -49,6 +50,10 @@ const services = [
     description: "Reabastecimiento de combustiible de un vehiculo",
     img: "fuel",
     options: [
+       {
+        label: "Gasolineras",
+        items: ["Oxxo gas","Windstar"],
+      },
       {
         label: "Tipo de combustible",
         items: ["Gasolina", "Diesel"],
